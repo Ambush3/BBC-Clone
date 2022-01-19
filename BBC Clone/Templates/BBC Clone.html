@@ -1,41 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <link rel="stylesheet" href="/Static/CSS/">
-    <title>BBC.com</title>
+    <title>BBC - Hompeage</title>
 </head>
 
 <body>
 
-    <header>
-        <div class="logo"><img class="logo" src="/Static/CSS/BBC.png"></div>
-        <div class="signinpic"><img class="profile" src="/Static/CSS/icon.png"></div>
+    <header id="banner" role="banner">
+        <div class="homepage">
+            <a href="https://www.bbc.com" id="homepage-link">Homepage</a>
+        </div>
+        <div class="signIn" id="signIn">
+            <a href="https://www.bbc.com/signin">
+                <span id="username">Sign In</span>
+            </a>
+        </div>
         <nav class="topnav"></nav>
             <ul>
-                <li><a href="signin" class="signin">Sign in</a></li>
-                <li><a href="home" class="home">Home</a></li>
-                <li><a href="news" class="news">News</a></li>
-                <li><a href="sports" class="sports">Sports</a></li>
-                <li><a href="reel" class="reel">Reel</a></li>
-                <li><a href="worklife" class="worklife">Worklife</a></li>
-                <li><a href="travel" class="travel">Travel</a></li>
-                <li><a href="future" class="future">Future</a></li>
-                <li><a href="culture" class="future">Culture</a></li>
+                <li class="home">
+                    <a href="https://www.bbc.com/">Home</a>
+                </li class="news">
+                    <a href="https://www.bbc.com/news">News</a></li>
+                <li class="sports">
+                    <a href="https://www.bbc.com/sport">Sport</a>
+                </li>
+                <li class="reel">
+                    <a href="https://www.bbc.com/reel">reel</a>
+                </li>
+                <li class="worklife">
+                    <a href="https://www.bbc.com/worklife">Worklife</a>
+                </li>
+                <li class="travel">
+                    <a href="https://www.bbc.com/travel">Travel</a>
+                </li>
+                <li class="future">
+                    <a href="https://www.bbc.com/future">Future</a>
+                </li>
+                <li class="culture">
+                    <a href="https://www.bbc.com/culture">Culture</a>
+                </li>
+                <li id="nav-more">
+                    <a class="moreOptions" href="https://www.bbc.com/more">
+                        "More"
+                        <span class="more-icon"></span>
+                    </a>
+                </li>
             </ul>
-            <div class="drop-more"><a href="moreOptions"></a></div>
-                <label for="moreOptions"></label>
-                <select name="moreOptions">
-                    <option value="option1">More</option>
-                </select>
-            </div>
-            <div class="searchbar">
-                <form class="form">
-                    <div class="wrapper"><input type="text" id="text" value="search"><input type="image" src="/Static/CSS/maginify.jpg"
-                            class="button"></div>
-                </form>
-            </div>
-            <a href="search" class="search">Search</a><!--change to form input-->
+    
+        <div class="searchbar">
+            <a class="search_button" href="search.bbc.com/search" title="Search BBC">Search</a>
+            <form class="search-form">
+                <div class="wrapper"><input type="text" id="text" value="search"></div>
+            </form>
+        </div>
         </nav>
     </header>
     <div class="welcome">
