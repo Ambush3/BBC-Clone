@@ -9,31 +9,33 @@
 <body>
 
     <header>
-        <nav class="topnav"></nav>
         <div class="logo"><img class="logo" src="/Static/CSS/BBC.png"></div>
         <div class="signinpic"><img class="profile" src="/Static/CSS/icon.png"></div>
-        <a href="signin" class="signin">Sign in</a>
-        <a href="home" class="home">Home</a>
-        <a href="news" class="news">News</a>
-        <a href="sports" class="sports">Sports</a>
-        <a href="reel" class="reel">Reel</a>
-        <a href="worklife" class="worklife">Worklife</a>
-        <a href="travel" class="travel">Travel</a>
-        <a href="future" class="future">Future</a>
-        <a href="culture" class="future">Culture</a>
-        <div class="drop-more"><a href="moreOptions"></a>
-            <label for="moreOptions"></label>
-            <select name="moreOptions">
-                <option value="option1">More</option>
-            </select>
-        </div>
-        <div class="searchbar">
-            <form class="form">
-                <div class="wrapper"><input type="text" id="text" value="search"><input type="image" src="/Static/CSS/maginify.jpg"
-                        class="button"></div>
-            </form>
-        </div>
-        <a href="search" class="search">Search</a>
+        <nav class="topnav"></nav>
+            <ul>
+                <li><a href="signin" class="signin">Sign in</a></li>
+                <li><a href="home" class="home">Home</a></li>
+                <li><a href="news" class="news">News</a></li>
+                <li><a href="sports" class="sports">Sports</a></li>
+                <li><a href="reel" class="reel">Reel</a></li>
+                <li><a href="worklife" class="worklife">Worklife</a></li>
+                <li><a href="travel" class="travel">Travel</a></li>
+                <li><a href="future" class="future">Future</a></li>
+                <li><a href="culture" class="future">Culture</a></li>
+            </ul>
+            <div class="drop-more"><a href="moreOptions"></a></div>
+                <label for="moreOptions"></label>
+                <select name="moreOptions">
+                    <option value="option1">More</option>
+                </select>
+            </div>
+            <div class="searchbar">
+                <form class="form">
+                    <div class="wrapper"><input type="text" id="text" value="search"><input type="image" src="/Static/CSS/maginify.jpg"
+                            class="button"></div>
+                </form>
+            </div>
+            <a href="search" class="search">Search</a><!--change to form input-->
         </nav>
     </header>
     <div class="welcome">
@@ -47,10 +49,10 @@
     </div>
 
     <section class="gridTop">
-        <article class="gridmain">
+        <article class="gridmain"> <!--Change all articles to section-->
             <a href="Middle East">
                 <img src="/Static/CSS/IsraelUAEDeal.jpeg" alt="UAE Deal"></a>
-            <h2>Israel and UAE strike historic peace deal</h2>
+            <h2>Israel and UAE strike historic peace deal</h2> 
             <p>Israel and UAE agree to normalize relations, marking the third Israel-Arab peace deal</p>
             <div class="middleEast">MIDDLE EAST</div>
 
@@ -88,7 +90,7 @@
 
     <h3>News</h3>
 
-    <div class="bottomrow">
+    <section class="bottomrow">
         <article class="bottomrowleft">
             <a href="BidenHarris">
                 <img src="/Static/CSS/BidenHarris.jpeg" alt="Biden Harris"></a>
@@ -106,15 +108,14 @@
                 they demand an end to police brutality.</p>
             <div class="Europe">EUROPE</div>
 
-            <article class="bottomrowright">
-                <a href="Trump">
-                    <img src="/Static/CSS/Trump.jpeg" alt="Trump"></a>
-                <p>Trump says low-pressure shower heads won't wash</p>
-                <p>The US calls for rule to be eased after Donald Trump
-                    complained of issues washing his hair. </p>
-                <div class=USCanada>US & CANADA</div>
-            </article>
-    </div>
-    </div>
+        <article class="bottomrowright">
+            <a href="Trump">
+                <img src="/Static/CSS/Trump.jpeg" alt="Trump"></a>
+            <p>Trump says low-pressure shower heads won't wash</p>
+            <p>The US calls for rule to be eased after Donald Trump
+                complained of issues washing his hair. </p>
+            <div class=USCanada>US & CANADA</div>
+         </article>
+    </section>
 
 </html>
